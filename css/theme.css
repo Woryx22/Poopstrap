@@ -25,3 +25,6 @@ body {
   p {
     color: var(color);
   }
+  .btn-toggle{
+    display: none;
+  }

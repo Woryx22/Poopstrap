@@ -9,3 +9,23 @@ btn.addEventListener("click", function () {
     document.body.classList.toggle("dark-theme");
   }
 });
+
+/***** Side panel *****/
+let panelWidth;
+if (window.innerWidth > 500) {
+  panelWidth = "500px"
+}
+else{
+  panelWidth = "100%"
+}
+function openNav() {
+  document.getElementById("mySidenav").style.width = panelWidth;
+  
+  document.getElementById("closeDivDark").style.width ="100%"
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("closeDivDark").style.width ="0"
+
+}

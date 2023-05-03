@@ -10,6 +10,14 @@ btn.addEventListener("click", function () {
   }
 });
 
+
+/***** Top panel *****/
+if (window.innerWidth < 768) {
+  document.getElementById("mySidenav").className = "sidenav";
+}
+else{
+  document.getElementById("mySidenav").className = "topnav";
+}
 /***** Side panel *****/
 let panelWidth;
 if (window.innerWidth > 500) {
@@ -29,3 +37,5 @@ function closeNav() {
   document.getElementById("closeDivDark").style.width ="0"
 
 }
+
+

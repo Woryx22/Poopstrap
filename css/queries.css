@@ -5,6 +5,9 @@
     div.welcome p.gray{
         font-size: 18px;
       }
+    a.closebtn,a i.navbar-menu{
+      display: block;
+    }
 }
 
 @media screen and (max-width:575px){

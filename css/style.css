@@ -81,6 +81,9 @@ header{
   margin-left: 50px;
 
 }
+a.closebtn,a i.navbar-menu{
+  display: none;
+}
 #closeDivDark{
   position: fixed;
   background-color: rgba(0, 0, 0, 0.685);
@@ -92,6 +95,22 @@ header{
   z-index: 1;
 }
   
+.topnav{
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.topnav a{
+  text-decoration: none;
+  transition: 200ms;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.topnav a:hover{
+  color: #ffffffcc;
+  transition: 200ms;
+}
+
+
 
 div.welcome{
   text-align: center;

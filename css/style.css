@@ -106,7 +106,7 @@ a.closebtn,a i.navbar-menu{
   margin-right: 10px;
 }
 .topnav a:hover{
-  color: #ffffffcc;
+  color: #aaaaaa;
   transition: 200ms;
 }
 
@@ -131,19 +131,42 @@ div.welcome p.gray{
 
 .welcome img{
   margin-top: 55px;
-  width: 35%;
+  width: 32%;
 }
 
+.container-a{
+  display: grid;
+  width: 40%;
+  grid-template-columns: 2fr 1fr;
+  margin: 0 auto;
+}
 
-.copy-window-a{
+.copy-window-a, .read-docs{
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 85%;
   background-color: #aaaaaa;
   padding: 10px;
   border-radius: 5px;
+}
+
+.read-docs{
+  background-color: #4ecdc4;
+}
+#read-docs-link{
+  text-decoration: none;
+  color: #f1f1f1ff;
+}
+.read-docs:hover{
+  background-color: #2d7772;
+}
+#read-docs-inner{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 .copy-a{
   margin-left: 50px;

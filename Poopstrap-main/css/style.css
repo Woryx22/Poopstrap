@@ -27,11 +27,10 @@ header{
 }
 
 .navbar-logo-small{
-  width: 50px;
+  width: 56px;
   position: absolute;
   top: 50%;
   left: 5%;
-  margin-left: 2%;
   transform: translate(-50%, -50%);
 }
 .navbar-menu{
@@ -92,30 +91,6 @@ header{
   z-index: 1;
 }
   
-
-div.welcome{
-  text-align: center;
-  margin: 0 auto;
-  max-width: 80;
-  width: 80%;
-}
-
-div.welcome h1{
-  font-size: 50px;
-}
-div.welcome p.gray{
-  color: #818181;
-  font-size: 25px;
-  margin-top: 1.5%;
-  margin-bottom: 1.5%;
-}
-
-.welcome img{
-  margin-top: 55px;
-  width: 35%;
-}
-
-
 .copy-window-a{
   display: flex;
   margin: 0 auto;
@@ -143,4 +118,9 @@ div.welcome p.gray{
 
 
 
+div.welcome{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 40%;
+}
 
